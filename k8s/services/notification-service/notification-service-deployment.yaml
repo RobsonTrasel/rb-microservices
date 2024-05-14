@@ -19,7 +19,7 @@ spec:
         - env:
             - name: SPRING_PROFILES_ACTIVE
               value: docker
-          image: saiupadhyayula007/notification-service:latest
+          image: robsonndev/notification-service:latest
           name: notification-service
           resources: {}
       restartPolicy: Always

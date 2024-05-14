@@ -20,7 +20,7 @@ spec:
         - env:
             - name: SPRING_PROFILES_ACTIVE
               value: docker
-          image: saiupadhyayula007/discovery-server:latest
+          image: robsonndev/discovery-server:latest
           name: discovery-server
           ports:
             - containerPort: 8761

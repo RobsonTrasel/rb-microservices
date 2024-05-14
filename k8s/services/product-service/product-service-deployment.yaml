@@ -20,7 +20,7 @@ spec:
         - env:
             - name: SPRING_PROFILES_ACTIVE
               value: docker
-          image: saiupadhyayula007/product-service:latest
+          image: robsonndev/product-service:latest
           name: product-service
           resources: {}
       restartPolicy: Always

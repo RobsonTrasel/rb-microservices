@@ -22,7 +22,7 @@ spec:
               value: jdbc:postgresql://postgres-order:5431/order-service
             - name: SPRING_PROFILES_ACTIVE
               value: docker
-          image: saiupadhyayula007/order-service:latest
+          image: robsonndev/order-service:latest
           name: order-service
           resources: {}
       restartPolicy: Always

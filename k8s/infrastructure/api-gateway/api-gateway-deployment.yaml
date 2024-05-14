@@ -21,7 +21,7 @@ spec:
               value: ' TRACE'
             - name: SPRING_PROFILES_ACTIVE
               value: docker
-          image: saiupadhyayula007/api-gateway:latest
+          image: robsonndev/api-gateway:latest
           name: api-gateway
           ports:
             - containerPort: 8080
